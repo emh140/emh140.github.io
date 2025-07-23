@@ -1,0 +1,28 @@
+.main_image {
+  max-width: 425px;
+  height: auto;
+  width: auto;
+  margin-left: 120px;
+}
+
+/* Use flexbox to center the content */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro p {
+    font-size: 1.2em;
+}
+.intro_text {
+  max-width: 600px;
+  margin-right: 20px;
+  /* Adjust the margin to create space between text and image */
+  margin-left: 30px;
+}
+
+.rant-head {
+    display:flex;
+    align-items: center;
+    padding-top: 35px;
+}
