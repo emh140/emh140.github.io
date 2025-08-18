@@ -59,11 +59,11 @@ body {
 .rant-body {
   background-color: rgba(170, 213, 245, 0.4);
   margin-left: 30px;
+  font-weight: 700;
 }
 .rant-body p {
     margin-bottom: 20px;
     margin-left: 20px;
-    font-weight: 700;
 }
 
 .nav{
