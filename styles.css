@@ -1,5 +1,9 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+  /*background-color: #1d1d1f;*/
+  background-image: url("./images/clouds.jpg");
+  background-size: 60%;
+  background-attachment: fixed;
 }
 
 .main_image {
@@ -7,6 +11,8 @@ body {
   height: auto;
   width: auto;
   margin-left: 120px;
+  background-color: rgba(170, 213, 245, 0.4);
+  padding: 20px;
 }
 
 /* Use flexbox to center the content */
@@ -24,6 +30,14 @@ body {
   margin-right: 20px;
   /* Adjust the margin to create space between text and image */
   margin-left: 30px;
+  background-color: #aad5f5;
+  padding-left: 20px;
+  cursor: default;
+}
+
+.intro_text h2 {
+  font-family: 'Tiny5', sans-serif;
+  font-size: 1.7em;
 }
 
 .rant-head {
@@ -31,8 +45,25 @@ body {
     align-items: center;
     padding-top: 35px;
 }
+
+.rant-head h1 {
+  font-size: 1.9em;
+  font-family:'Tiny5', sans-serif;
+  background-color: #aad5f5;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  cursor: default;
+}
+
+.rant-body {
+  background-color: rgba(170, 213, 245, 0.4);
+  margin-left: 30px;
+}
 .rant-body p {
     margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: 700;
 }
 
 .nav{
@@ -43,6 +74,7 @@ body {
 
 footer {
     text-align: center;
+    font-family: 'Tiny5', sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #aad5f5;
@@ -62,4 +94,13 @@ header p {
   justify-content: center;
   margin: 0;
   align-items: center;
+}
+
+.nav button {
+  background-color: #aad5f5;
+  font-family: 'Tiny5', sans-serif;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: grab;
 }
