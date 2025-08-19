@@ -1,9 +1,21 @@
 body {
   font-family: 'Red Hat Display', sans-serif;
   /*background-color: #1d1d1f;*/
-  background-image: url("./images/clouds.jpg");
+  background-image: url("../images/clouds.jpg");
   background-size: 60%;
   background-attachment: fixed;
+}
+
+header {
+    background-color: #aad5f5;
+    text-align: center;
+}
+
+header p {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  align-items: center;
 }
 
 .main_image {
@@ -34,18 +46,17 @@ body {
   padding-left: 20px;
   cursor: default;
 }
-
 .intro_text h2 {
   font-family: 'Tiny5', sans-serif;
   font-size: 1.7em;
 }
+
 
 .rant-head {
     display:flex;
     align-items: center;
     padding-top: 35px;
 }
-
 .rant-head h1 {
   font-size: 1.9em;
   font-family:'Tiny5', sans-serif;
@@ -55,7 +66,6 @@ body {
   padding-top: 5px;
   cursor: default;
 }
-
 .rant-body {
   background-color: rgba(170, 213, 245, 0.4);
   margin-left: 30px;
@@ -66,10 +76,24 @@ body {
     margin-left: 20px;
 }
 
-.nav{
+
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /*background-color: rgba(170, 213, 245, 0.4);*/
+    margin-top: 20px;
+    padding: 0px 20px 0px 20px;
+}
+.nav button {
+  background-color: #aad5f5;
+  font-family: 'Tiny5', sans-serif;
+  border: 10px solid;
+  border-color: rgba(170, 213, 245, 0.4);
+  background-clip: padding-box;
+  padding: 20px 30px;
+  font-size: 1.2em;
+  cursor: grab;
 }
 
 footer {
@@ -82,25 +106,4 @@ footer {
     width: 100%;
     position: relative;
     bottom: 0;
-}
-
-header {
-    background-color: #aad5f5;
-    text-align: center;
-}
-
-header p {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  align-items: center;
-}
-
-.nav button {
-  background-color: #aad5f5;
-  font-family: 'Tiny5', sans-serif;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1.2em;
-  cursor: grab;
 }

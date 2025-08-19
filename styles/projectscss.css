@@ -1,0 +1,44 @@
+.head {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.head h1 {
+    font-family: 'Tiny5', sans-serif;
+    font-size: 2.1em;
+    background-color: #aad5f5;
+    padding: 10px 20px 10px 20px;
+    border: 10px solid;
+    border-color: rgba(170, 213, 245, 0.4);
+    background-clip: padding-box;
+}
+
+.nav {
+    background-color: rgba(170, 213, 245, 0.5);
+}
+
+.project_blocks {
+    display: inline-grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 50px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.p_block {
+    background-color: #aad5f5;
+    width: 475px;
+    text-align: center;
+    padding: 30px;
+    height: auto;
+
+    border: 20px solid;
+    border-color: rgba(170, 213, 245, 0.4);
+    background-clip: padding-box;
+}
+.p_block img {
+    max-width: 20em;
+}
+.p_block p {
+    margin: 10px;
+}
