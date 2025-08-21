@@ -19,15 +19,37 @@
 
 .project_blocks {
     display: inline-grid;
-    grid-template-columns: repeat(3, 35em);
+    grid-template-columns: repeat(2, 1fr);
     gap: 50px;
-    margin: 40px;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
+@media only screen and (min-width: 1920px) {
+  .project_blocks {
+        display: inline-grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        margin: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 900px) {
+  .project_blocks {
+        display: inline-grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        margin: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .p_block {
     background-color: #aad5f5;
-    width: 475px;
+    /*min-width: 70%;*/
+    max-width: 85%;
     text-align: center;
     padding: 30px;
     height: auto;
