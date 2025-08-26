@@ -31,3 +31,8 @@
     height: 100%;
     border: 20px solid rgba(170, 213, 245, 0.5);
 }
+
+html {
+  visibility: visible;
+  opacity: 1;
+}

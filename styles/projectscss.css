@@ -64,3 +64,8 @@
 .p_block p {
     margin: 10px;
 }
+
+html {
+  visibility: visible;
+  opacity: 1;
+}

@@ -16,3 +16,8 @@
     border-color: rgba(170, 213, 245, 0.4);
     background-clip: padding-box;
 }
+
+html {
+  visibility: visible;
+  opacity: 1;
+}
