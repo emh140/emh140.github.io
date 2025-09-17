@@ -43,6 +43,19 @@
     background-clip: padding-box;
 }
 
+footer {
+    text-align: center;
+    font-family: 'Tiny5', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #aad5f5;
+    margin-top: 20.5%;
+    margin-bottom: 0.5%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
 html {
   visibility: visible;
   opacity: 1;
