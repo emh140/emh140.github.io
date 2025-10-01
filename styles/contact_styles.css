@@ -18,8 +18,42 @@
 }
 
 .contact-body {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.email {
     background-color: #aad5f5;
-    padding: 0.0008%;
+    padding: 1%;
+    margin-right: 1em;
+    text-align: center;
+    border: 10px solid;
+    border-color: rgba(170, 213, 245, 0.4);
+    background-clip: padding-box;
+}
+
+.linkedin {
+    background-color: #aad5f5;
+    padding: 1%;
+    margin-left: 1em;
+    text-align: center;
+    border: 10px solid;
+    border-color: rgba(170, 213, 245, 0.4);
+    background-clip: padding-box;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Tiny5', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #aad5f5;
+    margin-top: 20.5%;
+    margin-bottom: 0.5%;
+    width: 100%;
+    position: relative;
+    bottom: 0;
 }
 
 html {
